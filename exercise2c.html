@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <!-- disable zooming -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=0" />
+    <meta name-"author" content="Rebecca Niles" />
+
+    <title>DIY Quarto: Exercise 2c</title>
+
+    <link rel="stylesheet" href="./css/style.css" media="screen" />
+
+    <!--bootstrap local-->
+    <link rel="stylesheet" href="./js/bootstrap-3.3.7-dist/css/bootstrap.css" media="screen" />
+
+    <!--Jquery UI local-->
+    <link rel="stylesheet" href="./js/jquery-ui-1.12.1/jquery-ui.css" media="screen" />
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body id="main-style">
+  <div id="overlayContainer">
+  <h1>X</h1>
+  <div id="enlargePage" class="popupObject"></div>
+  <section id="readContainer" class="wrapper popupObject">
+    </section>
+</div>
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <ul id="title_breadcrumb" class="breadcrumb">
+            <li class="subhead"><a href="https://www.folger.edu/publishing-shakespeare/diy-quarto">DIY Quarto</a></li>
+            <li class="subhead"><a href="exercise1.html">Virtual Printing House</a></li>
+        </ul>
+    </div>
+    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+        <div id="dashboard" class="dashboard-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown open">
+                    <a class="dropdown-toggle-disabled" href="exercise1.html">Exercise 1: Eight pages per sheet; then repeat</a>
+                </li>
+                <li class="dropdown open">
+                    <a class="dropdown-toggle-disabled">Exercise 2: Finishing the job</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="exercise2a.html"><strong>2a</strong> O on a half sheet</a></li>
+                        <li><a href="exercise2b.html"><strong>2b</strong> A on a half sheet</a></li>
+                        <li><a class="active-exercise" href="exercise2c.html"><strong>2c</strong> Ending with the beginning</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown open">
+                    <a class="dropdown-toggle-disabled" href="coda.html">Judging a book by its title page</a>
+                </li>
+            </ul>
+        </div><!--/.sidebar-nav -->
+    </div><!--/.nav-collapse -->
+</nav><!--/.navbar -->
+<main id="page-wrapper5">
+  <div class="container-fluid">
+    <div class="col-md-12">
+<h1><strong class="dropcap">E</strong>nding with the beginning</h1>
+<p>Another possibility is that the printers brought the beginning and the end of the job together on one sheet. Printing these two parts of the text together would have been an efficient use of labor and paper. In that case, this is what the printed sheet would have looked like. After printing all the remaining pages, the printers would have cut the sheet in half. One half sheet would become the last of the gatherings, signed O. The other half sheet would become the title page and put at the very beginning as the implied gathering A. Neither of the possibilities illustrated here addresses what became of the blank leaf, if there was one.</p>
+
+<div id="selectPage" class="mainContainer">
+  <button class="round pageNav" id="prev"><img src="./images/prev.svg"/></button>
+<div id="pageLine">
+    <figure class="page_container" id="leafSTC22276_O_1r"><img id="pageSTC22276_O_1r" class="page ui-draggable ui-draggable-handle" src="./images/STC22276/O1r_sm.png">
+    <figcaption class="page_sig">O1r [p. 97]<img class="zoom" src="./images/zoom.svg"/></figcaption>
+  </figure>
+
+  <figure class="page_container" id="leafSTC22276_O_1v"><img id="pageSTC22276_O_1v" class="page ui-draggable ui-draggable-handle" src="./images/STC22276/O1v_sm.png"><figcaption class="page_sig">O1v [p. 98]<img class="zoom" src="./images/zoom.svg"/></figcaption></figure>
+
+    <figure class="page_container" id="leafSTC22276_O_2r"><img id="pageSTC22276_O_2r" class="page ui-draggable ui-draggable-handle" src="./images/STC22276/O2r_sm.png"><figcaption class="page_sig">O2r [p. 99]<img class="zoom" src="./images/zoom.svg"/></figcaption></figure>
+
+    <figure class="page_container" id="leafSTC22276_O_2v"><img id="pageSTC22276_O_2v" class="page ui-draggable ui-draggable-handle" src="./images/STC22276/O2v_sm.png"><figcaption class="page_sig">O2v<img class="zoom" src="./images/zoom.svg"/></figcaption></figure>
+
+    <figure class="page_container" id="leafSTC22276_A_1r"><img id="pageSTC22276_A_1r" class="page ui-draggable ui-draggable-handle" src="./images/STC22276/A1r_sm.png"><figcaption class="page_sig">[A]1r<img class="zoom" src="./images/zoom.svg"/></figcaption></figure>
+
+    <figure class="page_container" id="leafSTC22276_A_1v"><img id="pageSTC22276_A_1v" class="page ui-draggable ui-draggable-handle" src="./images/STC22276/A1v_sm.png"><figcaption class="page_sig">[A]1v<img class="zoom" src="./images/zoom.svg"/></figcaption></figure>
+
+  </div>
+  <button class="round pageNav" id="next"><img src="./images/next.svg"/></button>
+  </div>
+<div id="arrangePage" class="mainContainer">
+<!--<div style="margin-top:1em">
+      <button id="reset_sheet" disabled>Reset</button>
+  </div>-->
+  <div id="sheetLine">
+          <button id="fold" class="round"><img src="./images/fold.svg"/><br/><span>FOLD</span></button>
+  <div id="printPageOA" class="printPage">
+        <span class="clear_card">Reset</span>
+        <span class="flip_card">↺</span>
+      <section class="wrapper">
+      <div id="quartoOA" class="flippable sheet">
+      <figure class="front">
+        <div id="sheet_page2r" class="imp-seg folio-verso quarto-2r OA foldable invert full"><p>Blank</p></div>
+        <div id="sheet_page3v" class="imp-seg folio-recto quarto-3v OA foldable invert"><p>[A]1r</p></div>
+        <div id="sheet_page1v" class="imp-seg folio-verso quarto-1v OA foldable"><p>O1v</p></div>
+        <div id="sheet_page4r" class="imp-seg folio-recto quarto-4r OA foldable"><p>O2r</p></div>
+        <figcaption class="sheet_sig"></figcaption>
+        </figure>
+      <figure class="back">
+        <div id="sheet_page3r" class="imp-seg folio-verso quarto-3r OA foldable invert"><p>[A]1v</p></div>
+        <div id="sheet_page2v" class="imp-seg folio-recto quarto-2v OA foldable invert full"><p>Blank</p></div>
+        <div id="sheet_page4v" class="imp-seg folio-verso quarto-4v OA foldable"><p>O2v</p></div>
+        <div id="sheet_page1r" class="imp-seg folio-recto quarto-1r OA foldable"><p>O1r</p></div>
+        <figcaption class="sheet_sig"></figcaption>
+        </figure>
+    </div>
+  </section>
+    </div>
+          <button id="read" class="round" disabled onclick="readCard()"><img src="./images/read.svg"/><br/><span>READ</span></button>
+  </div>
+    <div>
+    <p>The full description of the play on the title page also advertised it. In itself, that is a reason not to add the protective blank pages. Whatever the printers decided in this case, they were always negotiating the cost of paper and the demands of advertising in London.</p>
+  </div>
+</div>
+</div>
+<div class="col-md-12 button-container">
+<button onclick="location.href='exercise2b.html';" class="btn-large"><strong><em>Back</em></strong>: <strong>2B</strong> A on a half sheet</button>
+<button onclick="location.href='coda.html';" class="btn-large"><strong><em>Next</em></strong>: Judging a book by its title page</button>
+</div>
+</div>
+</div>
+</main>
+<div id="footer" class="row">
+    <div id="RLN-logo" class="col-sm-4 col-xs-12"><p>Designed and Built by <a href="https://rebeccaniles.net" target="_blank">Rebecca Niles</a></p></div>
+    <div id="logo-container" class="col-sm-4 col-xs-12">
+        <a href="https://www.folger.edu/folger-institute" target="_blank" class="sponsor-logo"><img src="./images/FSL_Program_FolgerInstitute_ReverseWhite_RGB.svg" align="right"></a><a class="sponsor-logo" href="https://www.neh.gov/" target="_blank"><img src="./images/neh_logo_horizontal_reverse.png" align="right"></a>
+    </div>
+</div>
+
+<!--jQuery CDN
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+-->
+
+<!--jQuery local-->
+<script src="./js/jquery-3.2.1.min.js"></script>
+
+<!--jQuery UI local-->
+<script type="text/javascript" src="./js/jquery-ui-1.12.1/jquery-ui.js"></script>
+
+<!--jQuery Touch Punch local-->
+<script src="./js/jquery.ui.touch-punch.js"></script>
+
+ <!--bootstrap local-->
+    <script src="./js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<script src="./js/utils.js"></script>
+<script src="./js/printinghouse.js"></script>
+
+</body>
+</html>
