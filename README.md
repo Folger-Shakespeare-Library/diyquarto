@@ -17,9 +17,9 @@ the National Endowment for the Humanities. It was developed as
 part of the Folger's commemoration of the 400th anniversary of
 Shakespeare's death.
 
-Editors: Kathleen Lynch and Justine DeCamillis
-Designer/Developer: Rebecca Niles (Virtual Printing House)
-Digital Managing Editor: Esther French
+- Editors: Kathleen Lynch and Justine DeCamillis
+- Designer/Developer: Rebecca Niles (Virtual Printing House)
+- Digital Managing Editor: Esther French
 
 The Folger's own presentation of the project, including
 downloadable PDF facsimiles, is archived at:
